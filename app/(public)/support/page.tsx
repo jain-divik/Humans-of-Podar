@@ -18,7 +18,7 @@ export default function Support() {
       <ol className="grid g3" style={{ listStyle: "none", margin: "4rem 0" }}>
         {steps.map((s, i) => <li key={s.t} className="card"><span className="mono accent">{String(i + 1).padStart(2, "0")}</span><h2 className="h-md" style={{ margin: ".5rem 0" }}>{s.t}</h2><p className="muted">{s.d}</p></li>)}
       </ol>
-      <div className="split" style={{ gridTemplateColumns: "7fr 5fr" }}>
+        <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,360px),1fr))", alignItems: "start" }}>
         <SupportForm /><TrackingLookup />
       </div>
       <div style={{ marginTop: "3rem" }}><SafetyNotice /></div>
