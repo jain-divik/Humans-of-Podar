@@ -7,6 +7,6 @@ export default {
     unoptimized: true,
   },
   // Replace 'we-hear-you' with your actual repository name
-  basePath: '/we-hear-you',
-  assetPrefix: '/we-hear-you',
+  basePath: '/Humans-of-Podar',
+  assetPrefix: '/Humans-of-Podar',
 };
